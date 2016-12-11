@@ -1,0 +1,24 @@
+td.root {
+  border-color: white;
+  box-shadow: 0px 5px 2px lightgrey;
+  border-radius: 10px;
+  width: 20vw;
+  height: 20vw;
+  // align-items: center;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+
+  &.down {
+    img {
+      opacity: 0;
+    }
+  }
+
+  &.up {
+    img {
+      opacity: 1;
+    }
+  }
+}

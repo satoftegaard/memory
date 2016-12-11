@@ -5,10 +5,20 @@ $base-font-family: sans-serif;
 
 html {
   text-size-adjust: 100%;
+  height: 100%;
 }
 
-body {
+div {
   @include font-smoothing(on);
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #ff6b65;
+  // letter-spacing: 10px;
+  text-align: left;
 }
